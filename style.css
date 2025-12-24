@@ -1,0 +1,29 @@
+
+@font-face { font-family: 'DecoTypeNaskh'; src: url('fonts/DecotypeNaskh.ttf') format('truetype'); }
+*{margin:0;padding:0;box-sizing:border-box;font-family:'DecoTypeNaskh',Tahoma,Arial,sans-serif;}
+body{background-color:#fff;color:#1a1a2e;display:flex;flex-direction:column;min-height:100vh;}
+.header{background-color:#faeef1;padding:30px 40px;display:flex;flex-direction:column;align-items:center;text-align:center;}
+.header h1{font-size:28px;color:#8c1d40;margin:0;}
+.bar{height:4px;background-color:#8c1d40;}
+.container{width:100%;max-width:1200px;margin:40px auto;padding:20px;}
+form{display:flex;justify-content:center;align-items:center;margin-bottom:20px;gap:10px;}
+input[type="text"]{padding:10px;border:1px solid #ccc;border-radius:5px;width:250px;text-align:center;}
+button{padding:10px 20px;background-color:#8c1d40;color:white;border:none;border-radius:5px;cursor:pointer;}
+button:hover{background-color:#701b33;}
+.message{color:red;text-align:center;margin-bottom:15px;}
+.student-info{background-color:#faeef1;padding:20px;border-radius:8px;margin-bottom:30px;display:grid;grid-template-columns:1fr 1fr;gap:15px;}
+.student-info .info-item strong{min-width:120px;color:#8c1d40;}
+.section-title{background-color:#8c1d40;color:white;padding:10px;margin:20px 0;text-align:center;border-radius:4px;}
+.table-responsive { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table{width:100%;border-collapse:collapse;margin-bottom:30px; min-width: 600px;}
+th,td{border:1px solid #ddd;padding:12px;text-align:center;}
+th{background-color:#faeef1;font-weight:bold;}
+.footer{background-color:#8c1d40;color:white;text-align:center;padding:20px 10px;font-size:14px;margin-top:auto;}
+@media (max-width: 768px) {
+    .header { padding: 20px 10px; }
+    .header h1 { font-size: 24px; }
+    .container { padding: 10px; }
+    form { flex-direction: column; }
+    input[type="text"] { width: 90%; }
+    .student-info { grid-template-columns: 1fr; }
+}
