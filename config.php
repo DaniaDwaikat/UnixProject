@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$user = 'dania';      // اسم المستخدم الجديد
+$user = 'devops';      // اسم المستخدم الجديد
 $password = '123';     // كلمة المرور الجديدة
 $dbname = 'project_db';
 
