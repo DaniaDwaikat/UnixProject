@@ -87,12 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="info-item"><strong>الرقم الأكاديمي:</strong> <?= htmlspecialchars($student_info['academic_number']) ?></div>
         <div class="info-item"><strong>العنوان:</strong> <?= htmlspecialchars($student_info['address']) ?></div>
         <div class="info-item"><strong>رقم الهاتف:</strong> <?= htmlspecialchars($student_info['mobile_number']) ?></div>
-        <?php if(!empty($student_info['alternative_number_1'])): ?>
-            <div class="info-item"><strong>رقم بديل 1:</strong> <?= htmlspecialchars($student_info['alternative_number_1']) ?></div>
-        <?php endif; ?>
-        <?php if(!empty($student_info['alternative_number_2'])): ?>
-            <div class="info-item"><strong>رقم بديل 2:</strong> <?= htmlspecialchars($student_info['alternative_number_2']) ?></div>
-        <?php endif; ?>
+       
     </div>
 
     <div class="section-title">الشعب المسجل بها الطالب وعدد الغيابات</div>
@@ -165,7 +160,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <div class="footer">
     <div>العنوان: نابلس - الدوار - عمارة قنازع وزريق - الطابق السابع</div>
-    <div>هاتف: 092367452</div>
 </div>
 </body>
 </html>
