@@ -158,9 +158,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php endif; ?>
     <?php endif; ?>
 </div>
-<div class="footer">
-    <div>العنوان: نابلس - الدوار - عمارة قنازع وزريق - الطابق السابع</div>
-    
-</div>
+
 </body>
 </html>
