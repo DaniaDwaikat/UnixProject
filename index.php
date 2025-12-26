@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
 <div class="header">
-    <h1>نظام حضور وغياب الطلاب - مركز</h1>
+    <h1>نظام حضور وغياب الطلاب</h1>
 </div>
 <div class="bar"></div>
 
