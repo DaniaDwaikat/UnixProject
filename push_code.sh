@@ -1,16 +1,13 @@
 
-cd ~/UnixProject
+git add index.php
 
-
-git add .
-git reset config.php
-
-
+if git diff --cached --quiet; then
+    echo "No new changes to push."
+    exit 0
+fi
 echo "Enter commit message:"
 read message
-
-
 git commit -m "$message"
 git push origin main
 
-echo "Code uploaded successfully to GitHub (Config skipped)!"
+echo "Changes have been successfully pushed to GitHub"
