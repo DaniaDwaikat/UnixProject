@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="info-item"><strong>اسم الطالب:</strong> <?= htmlspecialchars($student_info['first_name'].' '.$student_info['father_name'].' '.$student_info['grandfather_name'].' '.$student_info['family_name']) ?></div>
         <div class="info-item"><strong>الرقم الأكاديمي:</strong> <?= htmlspecialchars($student_info['academic_number']) ?></div>
         <div class="info-item"><strong>العنوان:</strong> <?= htmlspecialchars($student_info['address']) ?></div>
-        <div class="info-item"><strong>رقم الهاتف:</strong> <?= htmlspecialchars($student_info['mobile_number']) ?></div>
+       
         
        
     </div>
