@@ -164,7 +164,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div>هاتف: رقم092367452</div>
     <div>هاتف: رقم092367452</div>
      
-     <div>هاتف: رقم092367452</div>
+     
 </div>
 </body>
 </html>
