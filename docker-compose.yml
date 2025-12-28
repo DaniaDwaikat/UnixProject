@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+
+  app:
+    build: .
+    container_name: student-app-container
+    ports:
+      - "8081:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+    networks:
+      - project_network
+
+
+  db:
+    image: mysql:8.0
+    container_name: student-db-container
+    restart: always
+    environment:
+      MYSQL_DATABASE: project_db
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_USER: devops
+      MYSQL_PASSWORD: 123
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql  
+    networks:
+      - project_network
+
+networks:
+  project_network:
+    driver: bridge
+
+volumes:
+  db_data:  
