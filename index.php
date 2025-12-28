@@ -161,7 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <div class="footer">
     
     <div>العنوان:- الدوار - عمارة قنازع وزريق - الطابق السابع</div>
-    <div> رقم092367452</div>
+    <div> رقم:092367452</div>
     
      
      
