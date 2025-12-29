@@ -1,5 +1,5 @@
 <?php
-$host = '192.168.56.101';
+$host = 'db';
 $user = 'devops';      // اسم المستخدم الجديد
 $password = '123';     // كلمة المرور الجديدة
 $dbname = 'project_db';
