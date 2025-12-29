@@ -2,7 +2,7 @@
 
 git add .
 
-echo "📝 Enter commit message:"
+echo " Enter commit message:"
 read message
 if [ -z "$message" ]; 
 then

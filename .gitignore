@@ -2,3 +2,6 @@
 *.log
 /vendor/
 node_modules/
+db_data/
+mysql_data/
+.vscode/
