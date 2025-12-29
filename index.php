@@ -162,8 +162,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     <div>العنوان:- الدوار - عمارة قنازع وزريق - الطابق السابع</div>
     <div> رقم الهاتف:092367452</div>
-    <div> jana </div>
-    
+
+    <div> Dania Dwaikat
+    </div>
      
 </div>
 </body>
