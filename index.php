@@ -86,7 +86,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="info-item"><strong>اسم الطالب:</strong> <?= htmlspecialchars($student_info['first_name'].' '.$student_info['father_name'].' '.$student_info['grandfather_name'].' '.$student_info['family_name']) ?></div>
         <div class="info-item"><strong>الرقم الأكاديمي:</strong> <?= htmlspecialchars($student_info['academic_number']) ?></div>
         <div class="info-item"><strong>العنوان:</strong> <?= htmlspecialchars($student_info['address']) ?></div>
-        <div class="info-item"><strong>رقم الهاتف:</strong> <?= htmlspecialchars($student_info['mobile_number']) ?></div>
         
        
     </div>
@@ -162,6 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     <div>العنوان:- الدوار - عمارة قنازع وزريق - الطابق السابع</div>
     <div> رقم الهاتف:092367452</div>
+<<<<<<< HEAD
      <div> رقم الهاتف:092367452</div>
     <div>العنوان:- الدوار - عمارة قنازع وزريق - الطابق السابع</div>
    
@@ -171,6 +171,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     
      
+=======
+>>>>>>> b152aced05fc77aa65bba57ed160cfdd4b82abe7
      
 </div>
 </body>
