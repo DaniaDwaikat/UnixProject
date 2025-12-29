@@ -170,10 +170,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     
 
-    
-     
-=======
->>>>>>> b152aced05fc77aa65bba57ed160cfdd4b82abe7
      
 </div>
 </body>
